@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<problem source_file="/Users/chholbrow/MOOCs/edX_maker/LaTeX2edX/toyx.tex" showanswer="attempted" display_name="Electric potential: a property of what">
+  <text>
+    <p>
+A charge [mathjaxinline]q[/mathjaxinline] is at a location [mathjaxinline]\vec{r}_{\rm f}[/mathjaxinline] in an electric field [mathjaxinline]E(\vec{r}_{\rm f})[/mathjaxinline]. Which of the following statements is (are) true? </p>
+    <p>
+      <choiceresponse>
+        <checkboxgroup>
+          <choice correct="false" name="1">
+            <text>a) electric potential is a property of the electric field [mathjaxinline]\vec{E}[/mathjaxinline]</text>
+          </choice>
+          <choice correct="false" name="2">
+            <text>b) electric potential is a property of the charge [mathjaxinline]q[/mathjaxinline].</text>
+          </choice>
+          <choice correct="false" name="3">
+            <text>c) electric potential is the property of an electric charge [mathjaxinline]q[/mathjaxinline] in an electric field [mathjaxinline]\vec{E}(\vec{r}_{\rm f})[/mathjaxinline]</text>
+          </choice>
+          <choice correct="true" name="4">
+            <text>d) electric potential may change when a charge moves in an electric field.</text>
+          </choice>
+        </checkboxgroup>
+      </choiceresponse>
+    </p>
+    <p>
+      <solution>
+        <font color="blue">Answer: </font>
+        <font color="blue"> a) electric potential is a property of electric field. The electric field strength is the negative gradient of the electric potential [mathjaxinline]\vec{E}(\vec{r}_{\rm f}) = - \nabla V(\vec{r}_{\rm f})[/mathjaxinline] b) As usual, you assume the charge [mathjaxinline]q[/mathjaxinline] is not so large that it affects the distribution of source charges giving rise to the electric field [mathjaxinline]\vec{E}[/mathjaxinline]. Then the electric potential has nothing to do with the charge placed in the field. The electric potential [mathjaxinline]V(\vec{r}_{\rm f})[/mathjaxinline] is a property only of the electric field. c) False for the same reason that b) is false. d) False. Moving the charge [mathjaxinline]q[/mathjaxinline] around in a field [mathjaxinline]\vec{E}[/mathjaxinline] does not change [mathjaxinline]\vec{E}(\vec{r}_{\rm f})[/mathjaxinline] and so it does not change [mathjaxinline]-\int _ A^ B \vec{E}(\vec{r}_{\rm f}) \cdot d\vec{\ell } = V(\vec{r}_{\rm B} ) - V(\vec{r}_{\rm A})[/mathjaxinline]  </font>
+      </solution>
+    </p>
+  </text>
+</problem>

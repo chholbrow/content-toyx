@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<problem source_file="/Users/chholbrow/MOOCs/edX_maker/LaTeX2edX/toyx.tex" showanswer="attempted" display_name="Electric potential: units">
+  <text>
+    <p>
+Which of the following are possible units of electric potential? </p>
+    <p>
+      <choiceresponse>
+        <checkboxgroup>
+          <choice correct="false" name="1">
+            <text>a) N/C</text>
+          </choice>
+          <choice correct="true" name="2">
+            <text>b) J</text>
+          </choice>
+          <choice correct="true" name="3">
+            <text>c) volt-coulomb</text>
+          </choice>
+          <choice correct="true" name="4">
+            <text>d) newton-meter</text>
+          </choice>
+          <choice correct="false" name="5">
+            <text>e) volts</text>
+          </choice>
+          <choice correct="false" name="6">
+            <text>f) kilowatt-hour</text>
+          </choice>
+          <choice correct="false" name="7">
+            <text>g) N[mathjaxinline]\cdot[/mathjaxinline]m/C</text>
+          </choice>
+        </checkboxgroup>
+      </choiceresponse>
+    </p>
+    <p>
+      <solution>
+        <font color="blue">Answer: </font>
+        <font color="blue"> e) and g) are okay. From the relation between [mathjaxinline]V[/mathjaxinline] and [mathjaxinline]\vec{E}[/mathjaxinline] it follows that electric potential has SI units of newton-meters/coulomb, i.e. N[mathjaxinline]\cdot[/mathjaxinline]m/C.  </font>
+      </solution>
+    </p>
+  </text>
+</problem>

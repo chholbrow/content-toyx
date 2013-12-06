@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<vertical display_name="electric field and field lines" source_file="/Users/chholbrow/MOOCs/edX_maker/LaTeX2edX/toyx.tex">
+  <video url_name="fields_and_lines"/>
+  <html url_name="Fields_fill_space"/>
+  <sequential display_name="field questions" start="">
+    <problem url_name="force_of_field_on_a_test_charge"/>
+  </sequential>
+</vertical>

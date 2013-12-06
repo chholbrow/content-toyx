@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<problem source_file="/Users/chholbrow/MOOCs/edX_maker/LaTeX2edX/toyx.tex" showanswer="attempted" display_name="force of field on a test charge">
+  <text>
+    <p>
+What is the magnitude of the force (in N) experienced by a 2-[mathjaxinline]\mu[/mathjaxinline]C charge when placed at (0,0,0) in an electric field [mathjaxinline]\vec{E}(\vec{r}) = -7070 \;  \hat{\imath } - 7070 \; \hat{\jmath } + 0 \hat{k}[/mathjaxinline]? </p>
+    <script type="text/python" system_path="python_lib">
+#%Comments in the script environment follow python rules, so hashtags (#) are the commenting character, not percentage (%), but both can be used together, as long as the string starts with #
+
+#%Set the answer tolerance (the value specified in abox will not be available to the code)
+tol = 0.01
+
+#%Here we define the supporting functions
+#%Check to see that the string is a number or mathematical expression, and return it's value
+def num(s):
+  try:
+    s = float(s)
+    return s
+  except ValueError:
+    s = eval(s+'.')
+    return s
+
+#%Check equality of expressions (default tolerance is 0.001), avoid using string comparisons
+def is_equal(num,ans,tol=0.001):
+  tol = math.fabs(tol)
+  if (num &gt; ans-tol) and (num &lt; ans+tol):
+    return True
+  else:
+    return False
+
+#%first hint.   in the syntax below, the hint is named 'hint_fn'.
+def hint_fnc(answer_ids, student_answers, new_cmap, old_cmap):
+  aid = answer_ids[0]
+  ans = student_answers[aid]
+  print 'hint_fnc called, ans=', ans
+  hint = ''
+  ans = num(ans)
+  if not ans:
+    hint = 'Please enter a number or a mathematical expression.'
+  else:
+    if is_equal(math.fabs(ans),.028,tol):
+      hint = 'Did you remember to take the sum of the squares?'
+    elif is_equal(math.fabs(ans),.0004,tol) or is_equal(math.fabs(ans),0.0004,tol):
+      hint = 'Did you forget to take the square root?'
+    elif is_equal(ans,-.02,tol):
+      hint = 'Distance is the magnitude of the displacement vector.  Magnitudes of vectors are always positive.'
+    else:
+      hint = 'The answer you entered is %s' % ans
+    if hint:
+      hint = "&lt;font color='blue'&gt;Hint: {0}&lt;/font&gt;".format(hint)
+      new_cmap.set_hint_and_mode(aid,hint,'always')
+</script>
+    <p>
+      <p style="display:inline">[mathjaxinline]|\vec{F}_{q}| =[/mathjaxinline]</p>
+      <numericalresponse inline="1" answer="0.02">
+        <textline inline="1">
+          <responseparam type="tolerance" default="0.001"/>
+        </textline>
+        <hintgroup hintfn="hint_fnc"/>
+      </numericalresponse>
+      <p style="display:inline"> N</p>
+    </p>
+    <p>
+      <solution>
+        <font color="blue">Answer: </font>
+        <font color="blue">
+          <p>
+ [mathjaxinline]\vec{F}_{\rm q} = q\;  \vec{E} = -0.0141 \hat{\imath } -0.0141 \;  \hat{\jmath } + 0 \hat{k}[/mathjaxinline]&#x2002;N and <br/>[mathjaxinline]|\vec{F}_ q| = \sqrt {0.0141^2 + 0.0141^2} = 0.02[/mathjaxinline]&#x2002;N  </p>
+        </font>
+      </solution>
+    </p>
+  </text>
+</problem>

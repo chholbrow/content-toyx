@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<problem source_file="/Users/chholbrow/MOOCs/edX_maker/LaTeX2edX/toyx.tex" showanswer="attempted" display_name="Electric potential energy: units">
+  <text>
+    <p>
+Which of the following are possible units of electric potential energy? </p>
+    <p>
+      <choiceresponse>
+        <checkboxgroup>
+          <choice correct="false" name="1">
+            <text>a) N/C</text>
+          </choice>
+          <choice correct="true" name="2">
+            <text>b) J</text>
+          </choice>
+          <choice correct="true" name="3">
+            <text>c) volt-coulomb</text>
+          </choice>
+          <choice correct="true" name="4">
+            <text>d) newton-meter</text>
+          </choice>
+          <choice correct="false" name="5">
+            <text>e) volts</text>
+          </choice>
+          <choice correct="false" name="6">
+            <text>f) kilowatt-hour</text>
+          </choice>
+          <choice correct="false" name="7">
+            <text>g) N-m/C</text>
+          </choice>
+        </checkboxgroup>
+      </choiceresponse>
+    </p>
+    <p>
+      <solution>
+        <font color="blue">Answer: </font>
+        <font color="blue"> b), c), d) and f) are all units of energy and therefore possible units of electric potential energy. Although f) is technically a correct answer, it would be excessively quirky to give electric potential energy in units of kW-h. a), d), and g) are not units of energy and, therefore, cannot be units of electric potential energy.  </font>
+      </solution>
+    </p>
+  </text>
+</problem>

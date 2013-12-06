@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<problem source_file="/Users/chholbrow/MOOCs/edX_maker/LaTeX2edX/toyx.tex" showanswer="attempted" display_name="Electric potential energy: a property of what">
+  <text>
+    <p>
+A charge [mathjaxinline]q[/mathjaxinline] is at a location [mathjaxinline]\vec{r}_{\rm f}[/mathjaxinline] in an electric field [mathjaxinline]E(\vec{r}_{\rm f})[/mathjaxinline]. Which of the following statements is (are) true? </p>
+    <p>
+      <choiceresponse>
+        <checkboxgroup>
+          <choice correct="false" name="1">
+            <text>a) electric potential energy is a property of the electric field[/mathjaxinline]E[mathjaxinline]</text>
+          </choice>
+          <choice correct="false" name="2">
+            <text>b) electric potential energy is a property of the charge[/mathjaxinline]q[mathjaxinline].</text>
+          </choice>
+          <choice correct="false" name="3">
+            <text>c) electric potential energy is the property of an electric charge[/mathjaxinline]q[mathjaxinline]in an electric field[/mathjaxinline]E(r_<span class="rm">f</span>)</text>
+          </choice>
+          <choice correct="true" name="4">
+            <text>d) electric potential energy may change when a charge moves in an electric field.</text>
+          </choice>
+        </checkboxgroup>
+      </choiceresponse>
+    </p>
+    <p>
+      <solution>
+        <font color="blue">Answer: </font>
+        <font color="blue"> a) it is wrong to say that electric potential energy is a property of the electric field; strictly speaking it is a property of the charge and the field; b) it is common to speak of the 'electric potential energy of a charge,' but it is really the potential energy of a charge in some particular electric field, so this answer is not satisfactory. c) True. Electric potential energy is a property of a charge in an electric field. A change of the value of either, changes the magnitude of the electric potential energy. d) This is correct. An electrostatic field [mathjaxinline]\vec{E}[/mathjaxinline] will accelerate a charge [mathjaxinline]q[/mathjaxinline], increasing or decreasing its kinetic energy and consequently decreasing or increasing its electric potential energy.  </font>
+      </solution>
+    </p>
+  </text>
+</problem>
